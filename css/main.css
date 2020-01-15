@@ -25,3 +25,8 @@ h1.warning,note{
     padding: 5px;
     background-color: yellowgreen;
 }
+
+article > p{
+    font-weight: bold;
+    font-color: red;
+}
