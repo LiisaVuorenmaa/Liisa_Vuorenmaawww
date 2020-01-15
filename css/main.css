@@ -13,7 +13,7 @@ p{
 header {
     color:blue;
 }
-h1.warning,note{
+h1.warning, note{
     color: blue;
     background-color: yellow;
 }
