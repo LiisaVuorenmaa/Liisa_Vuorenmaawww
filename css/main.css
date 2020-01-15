@@ -20,3 +20,8 @@ h1.warning,note{
 #note1 {
     color:green;
 }
+.comment{
+    border: 4px solid #666;
+    padding: 5px;
+    background-color: yellowgreen;
+}
