@@ -8,7 +8,7 @@ h1{
     color:darkred;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow';
     font-size: 16px;
-    background-color: grey;
+    
     border-bottom:5px solid red
 }
 
@@ -22,3 +22,27 @@ article > p{
     
 
 }
+a{
+    color: darkslategray
+}
+
+  figure{
+    display:table
+    caption-side:right;
+    float:right;
+    width: 10%;
+    font-style:Arial;
+    font-size: smaller:
+    color: black
+
+}
+  figcaption {
+    caption-side: bottom;
+    display: table-caption;
+    margin-top:15px;
+    font-size:15px;
+    text-align: center;
+  }
+  a:hover {
+    color:red;
+  }
