@@ -3,6 +3,7 @@
     background-color: darkgrey
     align-content: space-between;
     flex-wrap:nowrap;
+    
 }
 .flexContainer> div, .flexcolumn>div {
     background-color: rgba(128, 128, 116, 0.795);
