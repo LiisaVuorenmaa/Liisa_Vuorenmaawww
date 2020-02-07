@@ -17,8 +17,9 @@ body{
 }
 footer{
     display: flex;
-    background-color: rgba(128, 128, 128, 0.425);
+    background-color:rgba(78, 71, 71, 0.897);
     flex-direction: column;
+    color: white;
 }
 
 .box{
@@ -30,7 +31,8 @@ min-height: 400px;
 }
 header, footer{
     height:100px;
-    background-color: rgba(255, 255, 0, 0.068);
+    background-color: rgba(78, 71, 71, 0.897);
+    color: white;
 }
 article > p{
     font-weight: bold;
