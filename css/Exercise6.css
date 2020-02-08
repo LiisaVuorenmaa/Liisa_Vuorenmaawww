@@ -1,5 +1,5 @@
 body{
-    background-image: url('https://img.theculturetrip.com/768x432/wp-content/uploads/2017/10/aulangonjrvi-e1511893686207.jpg');
+    background-image: url('https://assets3.thrillist.com/v1/image/2816149/size/tmg-article_default_mobile.jpg');
     background-size:cover;
 
 }
@@ -14,6 +14,13 @@ body{
     padding-top: 600px;
     font-weight:600;
     color:white;
+}
+.box{
+    float:right;
+    width:200px;
+color:white;
+background-color:rgba(15, 59, 15, 0.308);
+min-height: 400px;
 }
 /* NAV BAR KOODI ALKAA */
 
@@ -45,22 +52,7 @@ body{
 .sidebar-nav {
     padding: 9px 0;
 }
-.dropdown-menu .sub-menu {
-    left: 100%;
-    position: absolute;
-    top: 0;
-    visibility: hidden;
-    margin-top: -1px;
-}
-.dropdown-menu li:hover .sub-menu {
-    visibility: visible;
-}
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
-    margin-top: 0;
-}
+
 .navbar .sub-menu:before {
     border-bottom: 7px solid transparent;
     border-left: none;
@@ -79,17 +71,7 @@ body{
     left: -6px;
  }
  
-/*Linkkien muotoilu->*/
-#note1{
-    color:black;
-    text-decoration: underline;
-}
- /* Otsikkojen määritykset-> */
- #note2{
-   color:rgb(255, 187, 0);
-   font-size:40px;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- }
+
  h1
  {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -104,17 +86,20 @@ body{
 
  
 
-
+article{
+    color:white;
+}
 
     
   
   
   .container {
+     
     border-radius: 5px;
     padding: 20px;
     text-align: center;
     padding-left: 12%;
-    padding-top: 18%; 
+    padding-top: 10%; 
   }
 
 
